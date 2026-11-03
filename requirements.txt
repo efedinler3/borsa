@@ -1,0 +1,14 @@
+# Piyasa Masası — kurulum: py -m pip install -r requirements.txt
+flask>=3.0
+feedparser>=6.0
+requests>=2.31
+tzdata>=2024.1
+pywebview>=5.0
+
+# Test Laboratuvarı, evrim ve hakem botları
+numpy>=2.0
+scikit-learn>=1.5
+
+# --- İsteğe bağlı: FinBERT duygu analizi (büyük indirme, ~2 GB; Ayarlar'da "FinBERT kullan" açılmalı)
+# transformers>=4.40
+# torch>=2.2
